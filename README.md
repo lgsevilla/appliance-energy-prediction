@@ -46,12 +46,31 @@ By modeling recent usage patterns and optimizing the regressor, the final model 
 
 ## Visualizations
 
-### Actual vs Predicted (Sample)
+### Distribution of Appliance Energy Consumption
+![Target Distribution](images/target_distribution.png)
 
-![Prediction Plot](images/prediction_plot.png)
+### Appliance Energy Usage by Hour
+![Hourly Boxplot](images/boxplot_hour.png)
 
-### Feature Importances
+### Energy Usage by Day of Week
+![Day of Week Boxplot](images/boxplot_dayofweek.png)
 
-![Feature Importances](images/feature_importance.png)
+### Weekend vs Weekday Usage
+![Weekend Boxplot](images/boxplot_weekend.png)
+
+### Feature Importances (XGBoost)
+![Feature Importances - XGBoost](images/feature_importance_xgb.png)
+
+### Feature Importances (Random Forest)
+![Feature Importances - Random Forest](images/feature_importance_rf.png)
+
+### Actual vs Predicted (Sample Line Plot)
+![Prediction Line](images/prediction_line.png)
+
+### Actual vs Predicted Scatter
+![Scatter Plot](images/scatter_actual_vs_predicted.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 
